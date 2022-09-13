@@ -1,0 +1,192 @@
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign image = page.metafields.custom.image
+  assign product = page.metafields.custom.product.value
+  assign slogan = page.metafields.custom.slogan
+-%}
+
+<div class="page-width row section-{{ section.id }}-padding">
+  <div class="col col-lg-6">
+    <img 
+      src="{{ image | image_url }}" 
+      alt="recipe"
+      height="{{ card_collection.featured_image.height }}"
+      width="{{ card_collection.featured_image.width }}"
+      loading="lazy"
+    />
+  </div>
+  <div class="col col-lg-6">
+    {%- if section.settings.hide_title == blank -%}
+      <h1 class="main-page-title page-title h0">
+        {{ page.title | escape }}
+      </h1>
+    {%- endif -%}
+    <div class="rte">
+      {{ page.content }}
+    </div>    
+    <div class="button recipe-add-to-cart" data-module="add-to-cart">Add to cart</div>
+    <h2 class="h2"><span>{{ slogan }}</span></h2>
+  </div>
+</div>
+
+{% assign recipes = page.metafields.custom.related_recipes.value %}
+{% if recipes %}
+  <div class="page-width row row-centered">
+    <div class="col-12">
+      <h2 class="h2 text-center">
+        OTHER COOL CAT RECIPES
+      </h2>
+    </div>
+    {% for recipe in recipes %}
+      {% assign recipe_img = recipe.metafields.custom.image %}
+      <div class="col col-lg-2 col-md-4 col-6">
+        <a href="{{ recipe.url }}">
+          <img src="{{ recipe_img | image_url }}" alt="recipe">
+        </a>
+        <h5 class="recipe-card-title text-center">
+          <span>
+            <a href="{{ recipe.url }}">
+              {{ recipe.title }}
+              <br>
+              <span>
+                VIEW RECIPE
+              </span>
+            </a>
+          </span>
+        </h5>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelector('[data-module="add-to-cart"]').addEventListener('click', function() {
+    const productId = '{{ product.variants[0].id }}';
+  
+    fetch('/cart/add.js', {
+      method: 'POST',
+      body: JSON.stringify({
+        id: productId,
+        quantity: 1
+      }),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      }
+    }).then(function(response) {
+      window.location.href = '/cart';
+    });
+  });
+}, false);
+</script>
+
+{% schema %}
+{
+  "name": "t:sections.page.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "page",
+      "id": "page",
+      "label": "t:sections.page.settings.page.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.page.presets.name"
+    }
+  ]
+}
+{% endschema %}

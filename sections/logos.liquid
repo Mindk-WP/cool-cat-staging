@@ -1,0 +1,27 @@
+<div class="wrap">
+  {% for num in (1..5) %}
+    {% assign img_url = 'logo-' | append: num | append: '.svg' | asset_url %}
+    <div class="award logo">
+      <img src="{{ img_url }}" alt="logo">
+    </div>
+  {%- endfor -%}
+</div>
+
+
+{% schema %}
+{
+  "name": "Logos",
+  "class": "awards-section logos-section",
+  "settings": [
+    {      
+      "type": "header",
+      "content": "Upload 'logo-1.svg' (up to 5) to the Assets"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Logos"
+    }
+  ]
+}
+{% endschema %}
