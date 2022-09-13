@@ -29,6 +29,8 @@
 
     {% render 'meta-tags' %}
 
+    <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'jquery.cookie.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
 
@@ -202,6 +204,7 @@
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'additional.css' | asset_url | stylesheet_tag }}
     {{ 'global.css' | asset_url | stylesheet_tag }}
+    {{ 'component-modal-age.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -219,10 +222,40 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
-  {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
-</head>
+    {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
+    
+
+    {% if template contains 'recipe' %}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Recipe",
+          "name": "{{ page.title }}",
+          "image": [ "{{ page.metafields.custom.product.value | image_url }}" ],
+          "description": "{{ page.content | strip_html }}",
+          "author": {
+            "@type": "Organization",
+            "name": "Drink Cool Cat"
+          }
+        }
+      </script>
+    {% endif %}
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TGBCWCW');</script>
+    <!-- End Google Tag Manager -->
+  </head>
 
   <body class="gradient">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGBCWCW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -244,8 +277,13 @@
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
     </ul>
 
+    {% comment %}
     <button class="button" id="show-popup-spin-to-win">Spin to Win</button>
+    {% endcomment %}
 
+    {%- render 'modal-age' -%}
+
+    {{ 'lazyload.min.js' | asset_url | script_tag }}
     <script>
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
@@ -273,6 +311,7 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
+      lazyload();
     </script>
 
     {%- if settings.predictive_search_enabled -%}

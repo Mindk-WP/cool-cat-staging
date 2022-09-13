@@ -1,0 +1,104 @@
+.modal-age {
+  background-color: #1eb6db;
+  z-index: 99999;
+}
+
+.modal-age .modal-body:not(.no-background) {
+  background-color: transparent;
+}
+
+.modal-age-logo img {
+  width: 265px;
+}
+
+.modal-age-title,
+.modal-age-button {
+  margin-top: 15px;
+}
+
+.modal-age-title {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.modal-age-button.button {
+  background-color: #000;
+  border: 0;
+  color: #fff;
+  -webkit-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;   
+}
+
+.modal-age-button.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.modal-age-checkbox-group {
+  margin-top: 40px;
+  position: relative;
+}
+
+.modal-age-checkbox-group input[type=checkbox] {
+    display: none;
+}
+
+.modal-age-checkbox-group label {
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 25px;
+  -webkit-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.modal-age-checkbox-group label span {
+  display: block;
+  position: absolute;
+  left: 0;
+  -webkit-transition-duration: 0.12s;
+  -moz-transition-duration: 0.12s;
+  transition-duration: 0.12s;
+}
+
+.modal-age-checkbox-group label .check {
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
+  border-radius: 0;
+  height: 11px;
+  left: 2px;
+  line-height: 1;
+  opacity: 0;
+  top: 3px;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  width: 20px;
+  z-index: 10;
+}
+
+.modal-age-checkbox-group label .box {
+  background: #f7f8fa;
+  border: 1px solid #e9e7e7;
+  border-radius: 0;
+  height: 17px;
+  top: 6px;
+  width: 17px;
+  z-index: 9;
+}
+
+.modal-age-checkbox-group input[type=checkbox]:checked ~ label .check {
+  opacity: 1;
+  -webkit-transform: scale(1) rotate(-45deg);
+  -moz-transform: scale(1) rotate(-45deg);
+  -ms-transform: scale(1) rotate(-45deg);
+  -o-transform: scale(1) rotate(-45deg);
+  transform: scale(1) rotate(-45deg);
+}

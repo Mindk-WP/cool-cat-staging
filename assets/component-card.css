@@ -311,3 +311,17 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
+.card-review {
+  font-size: calc(var(--font-heading-scale) * 1.3rem);
+}
+
+.card-review::after {
+  background-image: url('star.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+}

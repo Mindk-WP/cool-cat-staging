@@ -899,3 +899,29 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+// Add trustpilot average score into product cards
+document.addEventListener('DOMContentLoaded', function () {
+  const businessUnitId = '608191716c05e7000118e9b8';
+  const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
+  const reviewScoreElements = document.querySelectorAll('[data-module="trustpilot-review-score"]');
+
+  if (null !== reviewScoreElements && reviewScoreElements.length > 0) {
+    reviewScoreElements.forEach(function(element) {
+      const sku = element.dataset.sku;
+      
+      fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '?sku=' + sku, {
+        method: 'GET',
+        headers: {
+          'ApiKey': apiKey,
+          'Content-type': 'application/json; charset=UTF-8',
+        }
+      }).then(function(response) {
+        return response.json();
+      }).then(function(data) {
+        element.innerText = data.starsAverage;
+      });
+    });
+  }
+}, false);
+
