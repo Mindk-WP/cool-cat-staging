@@ -196,6 +196,17 @@
       ],
       "settings": {
       }
+    },
+    "16632602366b35d0d7": {
+      "type": "testimonials",
+      "settings": {
+        "title": "What our customer think",
+        "widget_code": "",
+        "video_url": "",
+        "bg_image": "shopify:\/\/shop_images\/Cool-Cat-Wine-Spritzer-Miami-Hurricanes-Football_1_ce7f9a63-ca8e-4b2f-a570-c2f4da47755b.jpg",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -205,6 +216,7 @@
     "16589399669bac701e",
     "1658940083b3a7c45b",
     "1658940184d130fe97",
-    "16601693419f1df2ed"
+    "16601693419f1df2ed",
+    "16632602366b35d0d7"
   ]
 }
