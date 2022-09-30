@@ -32,22 +32,6 @@
         "padding_bottom": 52
       }
     },
-    "1664556782eda02853": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Cool-Cat-Wine-Spritzer-Autumn-Sangria-Cocktail-Recipe.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "16645567125864ffd8": {
       "type": "rich-text",
       "blocks": {
@@ -74,7 +58,6 @@
   "order": [
     "main",
     "16645566438fd494d0",
-    "1664556782eda02853",
     "16645567125864ffd8"
   ]
 }
