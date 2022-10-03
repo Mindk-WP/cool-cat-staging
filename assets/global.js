@@ -924,10 +924,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 }, false);
-
-console.log(0);
-jQuery(function($) {
-  $(document).ready(){
-    console.log(1);
-  }
-});
