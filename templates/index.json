@@ -1,5 +1,40 @@
 {
   "sections": {
+    "7a0c693e-87ad-4099-83e7-c96edc5bb84b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15310851965028__7a0c693e-87ad-4099-83e7-c96edc5bb84b-16650797957376c485-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cool-Cat-Wine-Spritzer-Hero-1.jpg",
+            "heading": "Lorem ipsum dolor sit amet",
+            "heading_size": "h1",
+            "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "button_label": "Shop Now",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--15310851965028__7a0c693e-87ad-4099-83e7-c96edc5bb84b-16650797957376c485-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -209,6 +244,7 @@
     }
   },
   "order": [
+    "7a0c693e-87ad-4099-83e7-c96edc5bb84b",
     "rich_text",
     "featured_collection",
     "165883319446115b6a",
