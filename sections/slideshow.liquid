@@ -129,6 +129,16 @@
                 <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
               </div>
             {%- endif -%}
+            
+            {%- if block.settings.logo_image -%}
+              <img                
+                src="{{ block.settings.logo_image | image_url: width: 500 }}"
+                loading="lazy"
+                alt="{{ block.settings.logo_image.alt | escape }}"
+                width="{{ block.settings.logo_image.width }}"
+                height="{{ block.settings.logo_image.width | divided_by: block.settings.logo_image.aspect_ratio | round }}"
+              >            
+            {%- endif -%}
           </div>
         </div>
       </div>
@@ -297,11 +307,17 @@
           "label": "t:sections.slideshow.blocks.slide.settings.image.label"
         },
         {
-          "type": "color",
+          "type": "color_background",
           "id": "bg_color",
           "label": "Background color",
           "info": "Background color will shown if image field is empty.",
           "default": "#00c1e1"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo_image",
+          "info": "Image will be placed under the text.",
+          "label": "Logo image"
         },
         {
           "type": "text",
