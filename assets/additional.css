@@ -1149,3 +1149,8 @@ body.index .slideshow.banner .button:after {
 .banner__box img.slider-logo-img {
   margin-top: 80px;
 }
+.banner__box .h2 {
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 1.3;
+}
