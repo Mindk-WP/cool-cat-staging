@@ -134,6 +134,7 @@
               <img                
                 src="{{ block.settings.logo_image | image_url: width: 500 }}"
                 loading="lazy"
+                class="slider-logo-img" 
                 alt="{{ block.settings.logo_image.alt | escape }}"
                 width="{{ block.settings.logo_image.width }}"
                 height="{{ block.settings.logo_image.width | divided_by: block.settings.logo_image.aspect_ratio | round }}"
