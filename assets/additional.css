@@ -1146,6 +1146,6 @@ body.index .slideshow.banner .button:after {
     max-width: 780px !important;
   }
 }
-.slider-logo-img {
+.banner__box img.slider-logo-img {
   margin-top: 80px;
 }
