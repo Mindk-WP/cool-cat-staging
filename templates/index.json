@@ -250,6 +250,7 @@
           "type": "slide",
           "settings": {
             "bg_color": "#00c1e1",
+            "logo_image": "shopify:\/\/shop_images\/New_Project.png",
             "heading": "\"Light and refreshing, so glad to have discovered this\"",
             "heading_size": "h2",
             "subheading": "",
