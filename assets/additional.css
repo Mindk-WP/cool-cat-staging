@@ -1130,9 +1130,8 @@ body.index .slideshow.banner .button:after {
   display: none;
 }
 
-body.index {}
 @media screen and (max-width: 749px) {
-  body.index .banner__media {
+  .mobile-text-below .banner__media {
     position: relative;
   }
 }
