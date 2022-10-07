@@ -1126,4 +1126,8 @@ body.index .slideshow.banner .button:hover {
   color: #fff;
 }
 
+body.index .slideshow.banner .button:after {
+  display: none;
+}
+
 body.index {}
