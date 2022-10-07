@@ -1105,3 +1105,23 @@ h1, .h1, h1 span, .h1 span, .hxl, .hxl span {
     font-size: 44px;
   }
 }
+
+body.index .slideshow.banner .button {
+  box-sizing: border-box;
+  color: #000;
+  line-height: 35px;
+  font-size: 16px;
+  height: 35px;
+  /*min-height: auto;*/
+  padding: 0 35px;
+  transition: 0.2s ease;
+}
+body.index .slideshow.banner .button:not(:hover) {
+  background-color: #fff;
+}
+body.index .slideshow.banner .button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+body.index {}
