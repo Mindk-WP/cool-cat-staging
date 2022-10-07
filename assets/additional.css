@@ -1142,3 +1142,8 @@ body.index {}
     margin-bottom: 5rem;
   }
 }
+@media screen and (min-width: 1025px) {
+  body.index .banner__box {
+    max-width: 780px !important;
+  }
+}
