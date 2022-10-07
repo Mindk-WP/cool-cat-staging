@@ -1115,6 +1115,8 @@ body.index .slideshow.banner .button {
   /*min-height: auto;*/
   padding: 0 35px;
   transition: 0.2s ease;
+  min-width: 270px;
+  margin-top: 40px;
 }
 body.index .slideshow.banner .button:not(:hover) {
   background-color: #fff;
