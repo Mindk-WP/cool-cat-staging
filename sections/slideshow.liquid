@@ -88,7 +88,7 @@
         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
-        style="background-color: {{ block.settings.bg_color }}" 
+        style="background: {{ block.settings.bg_color }}" 
       >
         <div class="slideshow__media banner__media media{% if block.settings.image == blank and block.settings.bg_color == blank %} placeholder{% endif %}">
           {%- if block.settings.image -%}
@@ -110,7 +110,7 @@
               width="{{ block.settings.image.width }}"
               height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round }}"
             >
-          {%- else -%}
+          {%- elsif block.settings.bg_color == blank -%}
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
         </div>
