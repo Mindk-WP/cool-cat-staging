@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Cool-Cat-Wine-Spritzer-Hero-1.jpg",
-            "bg_color": "linear-gradient(#ffffff, #000000)",
+            "bg_color": "#00c1e1",
             "heading": "Lorem ipsum dolor sit amet",
             "heading_size": "h1",
             "subheading": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.",
@@ -249,7 +249,7 @@
         "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-0": {
           "type": "slide",
           "settings": {
-            "bg_color": "linear-gradient(180deg, rgba(240, 69, 87, 1), rgba(221, 39, 57, 1) 100%)",
+            "bg_color": "#00c1e1",
             "heading": "\"Light and refreshing, so glad to have discovered this\"",
             "heading_size": "h2",
             "subheading": "",
@@ -267,7 +267,7 @@
         "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-1": {
           "type": "slide",
           "settings": {
-            "bg_color": "linear-gradient(#ffffff, #000000)",
+            "bg_color": "#00c1e1",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
