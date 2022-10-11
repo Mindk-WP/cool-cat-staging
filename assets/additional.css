@@ -1149,7 +1149,7 @@ body.index .slideshow.banner .button:after {
 .banner__box img.slider-logo-img {
   margin-top: 80px;
 }
-.banner__box {
+.slideshow__text.banner__box {
   padding-left: 15px;
   padding-right: 15px;
 }
