@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Cool-Cat-Wine-Spritzer-Hero-1.jpg",
-            "bg_color": "#00c1e1",
+            "bg_color": "rgba(0,0,0,0)",
             "heading": "Lorem ipsum dolor sit amet",
             "heading_size": "h1",
             "subheading": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.",
