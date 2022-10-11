@@ -1139,10 +1139,16 @@ body.index .slideshow.banner .button:after {
 @media screen and (min-width: 750px) {
   body.index .banner__content {
     margin-bottom: 5rem;
-    margin-left: 20px;
-    margin-right: 20px;
   }
-}  
+}
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+  body.index .banner__content {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 @media screen and (min-width: 1025px) {
   body.index .banner__box {
     max-width: 780px !important;    
