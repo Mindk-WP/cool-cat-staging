@@ -1162,6 +1162,7 @@ body.index .slideshow.banner .button:after {
   top: 0;
   left: 0;
   border: none;
+  z-index: 10;
 }
 .clicable-slides .slider-button {
   position: absolute;
