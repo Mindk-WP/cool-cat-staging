@@ -1139,13 +1139,13 @@ body.index .slideshow.banner .button:after {
 @media screen and (min-width: 750px) {
   body.index .banner__content {
     margin-bottom: 5rem;
+    margin-left: 55px;
+    margin-right: 55px;
   }
 }
 @media screen and (min-width: 1025px) {
   body.index .banner__box {
-    max-width: 780px !important;
-    margin-left: 55px;
-    margin-right: 55px;
+    max-width: 780px !important;    
   }
 }
 .banner__box img.slider-logo-img {
