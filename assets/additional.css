@@ -1173,4 +1173,8 @@ body.index .slideshow.banner .button:after {
 .clicable-slides .slider-button.slider-button--next {
   left: 50%;
 }
+.clicable-slides .slider-counter,
+.clicable-slides .slideshow__autoplay {
+  display: none !important;
+}
 
