@@ -1144,6 +1144,8 @@ body.index .slideshow.banner .button:after {
 @media screen and (min-width: 1025px) {
   body.index .banner__box {
     max-width: 780px !important;
+    margin-left: 55px;
+    margin-right: 55px;
   }
 }
 .banner__box img.slider-logo-img {
