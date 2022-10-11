@@ -133,8 +133,8 @@
             {%- if block.settings.logo_image -%}
               <img                
                 src="{{ block.settings.logo_image | image_url: width: 500 }}"
-                loading="lazy"
                 class="slider-logo-img" 
+                loading="lazy"
                 alt="{{ block.settings.logo_image.alt | escape }}"
                 width="{{ block.settings.logo_image.width }}"
                 height="{{ block.settings.logo_image.width | divided_by: block.settings.logo_image.aspect_ratio | round }}"
@@ -273,6 +273,12 @@
       "unit": "s",
       "label": "t:sections.slideshow.settings.change_slides_speed.label",
       "default": 5
+    },
+    {
+      "type": "checkbox",
+      "id": "clicable-slides",
+      "label": "Clicable Slides",
+      "default": false
     },
     {
       "type": "header",
