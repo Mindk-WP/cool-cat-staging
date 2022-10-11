@@ -8,16 +8,16 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Cool-Cat-Wine-Spritzer-Hero-1.jpg",
             "bg_color": "rgba(0,0,0,0)",
-            "heading": "Lorem ipsum dolor sit amet",
+            "heading": "4 FLAVORS, 6.9% ALC, 140 CALORIES",
             "heading_size": "h1",
-            "subheading": "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.",
+            "subheading": "WITH THE RIGHT VIBE AND THE RIGHT TRIBE, THE SKY IS NOT THE LIMIT.",
             "button_label": "Shop Now",
             "link": "shopify:\/\/pages\/shop",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 10,
+            "image_overlay_opacity": 60,
             "color_scheme": "background-1",
             "text_alignment_mobile": "left"
           }
