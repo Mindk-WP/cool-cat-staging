@@ -1155,28 +1155,30 @@ body.index .slideshow.banner .button:after {
   line-height: 1.3;
 }
 
-.clicable-slides .slideshow__controls {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  border: none;
-  z-index: 10;
-}
-.clicable-slides .slider-button {
-  position: absolute;
-  height: 100%;
-  width: 50%;
-  top: 0;
-  left: 0;
-}
-.clicable-slides .slider-button.slider-button--next {
-  left: 50%;
-}
-.clicable-slides .slider-button svg,
-.clicable-slides .slider-counter,
-.clicable-slides .slideshow__autoplay {
-  display: none;
+@media screen and (min-width: 576px) {
+  .clicable-slides .slideshow__controls {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    z-index: 10;
+  }
+  .clicable-slides .slider-button {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+  }
+  .clicable-slides .slider-button.slider-button--next {
+    left: 50%;
+  }
+  .clicable-slides .slider-button svg,
+  .clicable-slides .slider-counter,
+  .clicable-slides .slideshow__autoplay {
+    display: none;
+  }
 }
 
