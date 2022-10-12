@@ -1149,7 +1149,7 @@ body.index .slideshow.banner .button:after {
     padding-right: 0;
   }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 992px) {
   body.index .banner__box {
     max-width: 780px !important;    
   }
