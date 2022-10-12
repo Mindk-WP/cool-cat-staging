@@ -1149,6 +1149,9 @@ body.index .slideshow.banner .button:after {
     padding-right: 0;
     justify-content: start;
   }
+  body.index .banner__box {
+    max-width: 100%;    
+  }
 }
 @media screen and (min-width: 992px) {
   body.index .banner__box {
