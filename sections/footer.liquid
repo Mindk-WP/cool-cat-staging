@@ -22,7 +22,7 @@
     {% endif %}
   }
   .shopify-section:last-child slideshow-component {
-    margin-top: -{{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: -{{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
   }
 
   .section-{{ section.id }}-padding {
@@ -37,7 +37,7 @@
       {% endif %}
     }
     .shopify-section:last-child slideshow-component {
-      margin-top: -{{ section.settings.margin_top }}px;
+      margin-bottom: -{{ section.settings.margin_top }}px;
     }
 
     .section-{{ section.id }}-padding {
