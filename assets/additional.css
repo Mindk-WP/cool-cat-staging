@@ -1139,6 +1139,7 @@ body.index .slideshow.banner .button:after {
   }
   .shopify-section:first-child .banner__content {
     align-items: end;
+    margin-bottom: 1rem;
   }
 }
 
