@@ -1147,6 +1147,7 @@ body.index .slideshow.banner .button:after {
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+    justify-content: start;
   }
 }
 @media screen and (min-width: 992px) {
