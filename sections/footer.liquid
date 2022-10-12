@@ -21,6 +21,9 @@
       margin-top: 0;
     {% endif %}
   }
+  .shopify-section:last-child slideshow-component {
+    margin-top: -{{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+  }
 
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -32,6 +35,9 @@
       {% if template == 'page.landing' or template == 'page.landing-2' %}
         margin-top: 0;
       {% endif %}
+    }
+    .shopify-section:last-child slideshow-component {
+      margin-top: -{{ section.settings.margin_top }}px;
     }
 
     .section-{{ section.id }}-padding {
