@@ -1134,6 +1134,9 @@ body.index .slideshow.banner .button:after {
   .mobile-text-below .banner__media {
     position: relative;
   }
+  .shopify-section:first-child .slideshow.banner  {
+    min-height: calc(100vh - 114px);
+  }  
 }
 
 @media screen and (min-width: 750px) {
