@@ -1141,7 +1141,7 @@ body.index .slideshow.banner .button:after {
     margin-bottom: 5rem;
   }
 }
-@media screen and (min-width: 750px) and (max-width: 991px) {
+@media screen and (max-width: 991px) {
   body.index .banner__content {
     margin-left: 0;
     margin-right: 0;
