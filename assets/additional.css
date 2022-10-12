@@ -1142,18 +1142,21 @@ body.index .slideshow.banner .button:after {
   }
 }
 
-body.index .banner__content {
+.slider-type-hero .banner__content,
+.slider-type-press .banner__content {
   margin-bottom: .5rem;
 }
 @media screen and (max-width: 991px) {
-  body.index .banner__content {
+  .slider-type-hero .banner__content,
+  .slider-type-press .banner__content {
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
     justify-content: start;
   }
-  body.index .banner__box {
+  .slider-type-hero .banner__box,
+  .slider-type-press .banner__box {
     max-width: 100%;    
   }
 }
@@ -1174,10 +1177,12 @@ body.index .banner__content {
   font-family: 'Neutra Alt', sans-serif;
 }
 @media screen and (min-width: 992px) {
-  body.index .banner__box {
+  .slider-type-hero .banner__box,
+  .slider-type-press .banner__box {
     max-width: 1024px !important;    
   }
-  body.index .banner__content {
+  .slider-type-hero .banner__content,
+  .slider-type-press .banner__content {
     margin-left: 55px;
     margin-right: 55px;
     max-width: calc(100% - 110px);
