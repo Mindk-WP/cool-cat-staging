@@ -1142,10 +1142,8 @@ body.index .slideshow.banner .button:after {
   }
 }
 
-@media screen and (min-width: 750px) {
-  body.index .banner__content {
-    margin-bottom: .5rem;
-  }
+body.index .banner__content {
+  margin-bottom: .5rem;
 }
 @media screen and (max-width: 991px) {
   body.index .banner__content {
