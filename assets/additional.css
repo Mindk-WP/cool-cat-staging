@@ -1213,7 +1213,7 @@ body.index .slideshow.banner .button:after {
   }
 }
 @media screen and (max-width: 575px) {
-  .slideshow__controls {
+  div.slideshow__controls {
     display: none;
   }  
 }
