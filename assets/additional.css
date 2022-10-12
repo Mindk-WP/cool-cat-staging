@@ -1159,16 +1159,6 @@ body.index .slideshow.banner .button:after {
     max-width: 100%;    
   }
 }
-@media screen and (min-width: 992px) {
-  body.index .banner__box {
-    max-width: 780px !important;    
-  }
-  body.index .banner__content {
-    margin-left: 55px;
-    margin-right: 55px;
-    max-width: calc(100% - 110px);
-  }
-}
 .banner__box img.slider-logo-img {
   margin-top: 80px;
 }
@@ -1185,6 +1175,21 @@ body.index .slideshow.banner .button:after {
 .banner__box .h1 {
   font-family: 'Neutra Alt', sans-serif;
 }
+@media screen and (min-width: 992px) {
+  body.index .banner__box {
+    max-width: 780px !important;    
+  }
+  body.index .banner__content {
+    margin-left: 55px;
+    margin-right: 55px;
+    max-width: calc(100% - 110px);
+  }
+  .banner__box .h2 {
+    font-size: 108px;    
+    line-height: 134px;
+  }
+}
+
 
 @media screen and (min-width: 576px) {
   .clicable-slides .slideshow__controls {
