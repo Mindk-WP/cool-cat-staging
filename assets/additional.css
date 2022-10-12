@@ -1185,8 +1185,8 @@ body.index .slideshow.banner .button:after {
     max-width: calc(100% - 110px);
   }
   .banner__box .h2 {
-    font-size: 108px;    
-    line-height: 134px;
+    font-size: 65px;    
+    line-height: 85px;
   }
 }
 
