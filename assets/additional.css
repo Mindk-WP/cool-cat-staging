@@ -1136,7 +1136,10 @@ body.index .slideshow.banner .button:after {
   }
   .shopify-section:first-child .slideshow.banner  {
     min-height: calc(100vh - 114px);
-  }  
+  }
+  .shopify-section:first-child .banner__content {
+    align-items: end;
+  }
 }
 
 @media screen and (min-width: 750px) {
