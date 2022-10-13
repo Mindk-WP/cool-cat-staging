@@ -42,9 +42,8 @@ trustpilot_frame.onload = setTimeout(console.log(trustpilot_frame), 500);
   
     if (null !== reviewScoreElements && reviewScoreElements.length > 0) {
       reviewScoreElements.forEach(function(element) {
-        const sku = element.dataset.sku;
         
-        fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '?sku=' + sku, {
+        fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews', {
           method: 'GET',
           headers: {
             'ApiKey': apiKey,
