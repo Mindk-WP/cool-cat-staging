@@ -26,6 +26,15 @@
   </div>
 </div>
 
+<script>  
+  var trustpilot_children = document.getElementById("trustpilot_widget").childNodes;
+  var trustpilot_frame = trustpilot_children[0];
+  trustpilot_frame.onload = function() {
+    var date_tags = trustpilot_frame.contentDocument.getElementsByClassName("date");
+    date_tags.style.display = "none";
+  }
+</script>
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
