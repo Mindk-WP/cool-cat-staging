@@ -29,6 +29,8 @@
 <script>  
   var trustpilot_children = document.getElementById("trustpilot_widget").childNodes;
   var trustpilot_frame = trustpilot_children[0];
+    console.log(trustpilot_frame);
+
   trustpilot_frame.onload = function() {
     var date_tags = trustpilot_frame.contentDocument.getElementsByClassName("date");
     date_tags.style.display = "none";
