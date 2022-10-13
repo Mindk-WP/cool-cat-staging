@@ -1231,7 +1231,6 @@ body.index .slideshow.banner .button:after {
   margin-bottom: 50px;
 }
 
-.ju_preview_3,
-#ju_bbox {
-  z-index: 999999 !important; 
+#ju_Con_856742 {
+  z-index: 999995 !important; 
 }
