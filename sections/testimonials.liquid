@@ -38,7 +38,7 @@
     console.log(trustpilot_frame);
 
   trustpilot_frame.onload = function() {
-    var date_tags = trustpilot_frame.contentDocument.getElementsByClassName("date");
+    var date_tags = trustpilot_frame.contentWindow.document.getElementsByClassName("date");
     date_tags.style.display = "none";
   }
 </script>
