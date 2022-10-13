@@ -1227,6 +1227,7 @@ body.index .slideshow.banner .button:after {
 }
 
 .page-featured-image {
+  max-width: 100%;
   margin-bottom: 50px;
 }
 
