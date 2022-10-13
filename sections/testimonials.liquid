@@ -29,7 +29,7 @@
 <script>  
   console.log('iframe - ' + document.querySelectorAll("#trustpilot_widget iframe"));
   
-  const iframeDocument = document.querySelectorAll("#trustpilot_widget iframe");
+  const iframeDocument = document.querySelectorAll("#trustpilot_widget iframe")[0].contentDocument;
   console.log(iframeDocument);
   iframeDocument.body.style.backgroundColor = "blue";
   
