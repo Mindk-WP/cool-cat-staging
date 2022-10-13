@@ -27,11 +27,11 @@
 </div>
 
 <script>  
-  console.log('iframe - ' + document.querySelectorAll("#trustpilot_widget iframe"));
+  // console.log('iframe - ' + document.querySelectorAll("#trustpilot_widget iframe"));
   
-  const iframeDocument = document.querySelectorAll("#trustpilot_widget iframe")[0].contentDocument;
-  console.log(iframeDocument);
-  iframeDocument.body.style.backgroundColor = "blue";
+  // const iframeDocument = document.querySelectorAll("#trustpilot_widget iframe")[0].contentDocument;
+  // console.log(iframeDocument);
+  // iframeDocument.body.style.backgroundColor = "blue";
   
   var trustpilot_children = document.querySelectorAll("#trustpilot_widget iframe")[0].childNodes;
   var trustpilot_frame = trustpilot_children[0];
