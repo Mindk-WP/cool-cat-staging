@@ -35,7 +35,7 @@
   
   var trustpilot_children = document.querySelectorAll("#trustpilot_widget iframe")[0].childNodes;
   var trustpilot_frame = trustpilot_children[0];
-    console.log(trustpilot_frame);
+    console.log('iframe2 - ' + trustpilot_frame);
 
   trustpilot_frame.onload = function() {
     var date_tags = trustpilot_frame.contentDocument.getElementsByClassName("date");
