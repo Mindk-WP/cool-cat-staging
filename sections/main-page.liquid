@@ -24,16 +24,18 @@
 
 <div class="page-width page-width--narrow_ section-{{ section.id }}-padding">
   {%- if section.settings.hide_title == blank -%}
-    <h1 class="main-page-title page-title h0">
+    <h1 class="main-page-title page-title h0 text-center">
       {{ page.title | escape }}
     </h1>
   {%- endif -%}
   {%- if image -%}
-    <img 
-      src="{{ image | image_url }}" 
-      alt="featured image"
-      loading="lazy"
-    />
+    <div class="text-center">
+      <img 
+        src="{{ image | image_url }}" 
+        alt="featured image"
+        loading="lazy"
+      />
+    </div>
   {%- endif -%}  
   <div class="rte">
     {{ page.content }}
