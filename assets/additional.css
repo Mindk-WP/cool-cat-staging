@@ -1226,4 +1226,7 @@ body.index .slideshow.banner .button:after {
   }  
 }
 
+.page-featured-image {
+  margin-bottom: 50px;
+}
 
