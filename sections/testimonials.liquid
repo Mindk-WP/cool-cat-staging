@@ -26,13 +26,19 @@
   </div>
 </div>
 
+
+
+
 <script>  
 
-  var trustpilot_children = document.getElementById("trustpilot_widget").childNodes;
-var trustpilot_frame = trustpilot_children[0];
-  console.log(trustpilot_frame);
-trustpilot_frame.onload = setTimeout(console.log(trustpilot_frame), 500);
-  // console.log('iframe - ' + document.querySelectorAll("#trustpilot_widget iframe"));
+// var trustpilot_children = document.getElementById("trustpilot_widget").childNodes;
+// var trustpilot_frame = trustpilot_children[0];
+// console.log(trustpilot_frame);
+// trustpilot_frame.onload = setTimeout(console.log(trustpilot_frame), 500);
+// console.log('iframe - ' + document.querySelectorAll("#trustpilot_widget iframe"));
+
+
+  
   
   // Add trustpilot average score into product cards
   document.addEventListener('DOMContentLoaded', function () {
@@ -62,6 +68,9 @@ trustpilot_frame.onload = setTimeout(console.log(trustpilot_frame), 500);
   }, false);
   
 </script>
+
+
+
 
 {%- style -%}
   .section-{{ section.id }}-padding {
