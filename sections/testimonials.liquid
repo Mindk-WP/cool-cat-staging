@@ -33,7 +33,7 @@
   // console.log(iframeDocument);
   // iframeDocument.body.style.backgroundColor = "blue";
   
-  var trustpilot_children = document.querySelectorAll("#trustpilot_widget iframe").childNodes;
+  var trustpilot_children = document.querySelectorAll("#trustpilot_widget iframe").firstChild.childNodes;
   var trustpilot_frame = trustpilot_children[0];
     console.log('iframe2 - ' + trustpilot_frame);
 
