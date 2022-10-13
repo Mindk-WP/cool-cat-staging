@@ -32,13 +32,16 @@
       {%- endif -%}
     </h1>
 
-    <img 
-      src="{{ image | image_url }}" 
-      alt="recipe"
-      height="{{ card_collection.featured_image.height }}"
-      width="{{ card_collection.featured_image.width }}"
-      loading="lazy"
-    />
+    {%- if image -%}
+      <div class="text-center">
+        <img 
+          class="page-featured-image"
+          src="{{ image | image_url }}" 
+          alt="featured image"
+          loading="lazy"
+        />
+      </div>
+    {%- endif -%}
     
     <div class="rte">
       {%- if section.settings.page.content != blank -%}
