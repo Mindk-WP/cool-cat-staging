@@ -18,12 +18,25 @@
   }
 {%- endstyle -%}
 
+{%- liquid
+  assign image = page.metafields.custom.image
+-%}
+
 <div class="page-width page-width--narrow_ section-{{ section.id }}-padding">
   {%- if section.settings.hide_title == blank -%}
     <h1 class="main-page-title page-title h0">
       {{ page.title | escape }}
     </h1>
   {%- endif -%}
+  {%- if image -%}
+    <img 
+      src="{{ image | image_url }}" 
+      alt="recipe"
+      height="{{ image.height }}"
+      width="{{ image.width }}"
+      loading="lazy"
+    />
+  {%- endif -%}  
   <div class="rte">
     {{ page.content }}
   </div>
