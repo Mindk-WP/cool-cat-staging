@@ -18,6 +18,10 @@
   }
 {%- endstyle -%}
 
+{%- liquid
+  assign image = page.metafields.custom.image
+-%}
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
     <h1 class="page-title {{ section.settings.heading_size }}">
@@ -27,6 +31,15 @@
         {{ 'sections.page.title' | t }}
       {%- endif -%}
     </h1>
+
+    <img 
+      src="{{ image | image_url }}" 
+      alt="recipe"
+      height="{{ card_collection.featured_image.height }}"
+      width="{{ card_collection.featured_image.width }}"
+      loading="lazy"
+    />
+    
     <div class="rte">
       {%- if section.settings.page.content != blank -%}
         {{ section.settings.page.content }}
