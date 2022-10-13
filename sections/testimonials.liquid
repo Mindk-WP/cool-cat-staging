@@ -33,7 +33,7 @@
   console.log(iframeDocument);
   iframeDocument.body.style.backgroundColor = "blue";
   
-  var trustpilot_children = document.getElementById("trustpilot_widget").childNodes;
+  var trustpilot_children = document.querySelectorAll("#trustpilot_widget iframe")[0].childNodes;
   var trustpilot_frame = trustpilot_children[0];
     console.log(trustpilot_frame);
 
