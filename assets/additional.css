@@ -1242,7 +1242,8 @@ body.index .slideshow.banner .button:after {
   display: inline-block;
   filter: invert(1);  
   white-space: nowrap;
-  
+  font-size: 8px;
+  vertical-align: middle;
 }
 .review-total .star {
   display: inline-block;
