@@ -1250,9 +1250,9 @@ body.index .slideshow.banner .button:after {
 }
 .review-item .star {
   display: inline-block;
-  width: 17px;
-  height: 17px;
-  margin: 2px;
+  width: 15px;
+  height: 15px;
+  margin: 1px;
   background-image: url(star.svg);
   background-size: contain;
 }
