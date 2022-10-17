@@ -1238,7 +1238,7 @@ body.index .slideshow.banner .button:after {
   text-align: left;
 }
 .review-item {
-  display: inline-block;
+/*   display: inline-block; */
   padding: 20px 20px 30px;
   margin: 8px;
   background-color: rgba(255,255,255,.9);
