@@ -13,6 +13,8 @@
         <h2 class="h1 section-title">
           {{ section.settings.title | escape }}   
         </h2>
+        <div id="testimonials-wrapper" class="testimonials-wrapper">
+        </div>          
       </div>
     {%- endif -%}
     {%- if section.settings.title != blank -%}
@@ -44,7 +46,8 @@
   document.addEventListener('DOMContentLoaded', function () {
     const businessUnitId = '608191716c05e7000118e9b8';
     const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
-  
+    const wrapper = document.getElementById('testimonials-wrapper');
+      
         
       fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
         method: 'GET',
@@ -60,7 +63,7 @@
 
 
         
-        // element.innerText = data.starsAverage;
+        wrapper.innerText = data;
 
 
         
