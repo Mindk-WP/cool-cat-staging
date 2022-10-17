@@ -1251,6 +1251,7 @@ body.index .slideshow.banner .button:after {
 }
 .review-item .stars {
   white-space: nowrap;
+  margin-bottom: 8px;
 }
 .review-item .star {
   display: inline-block;
