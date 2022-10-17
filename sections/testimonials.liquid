@@ -69,7 +69,7 @@
           
           let stars = document.createElement('div');
           stars.className = "stars";
-          for (let i = 0, i < item.stars, i++){
+          for (var i = 0, i < item.stars, i++){
             let star = document.createElement('span');
             star.className = "star";
             stars.append(star);
