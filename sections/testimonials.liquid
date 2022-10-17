@@ -63,7 +63,9 @@
 
 
         data.productReviews.forEach(function (item, index) {
-          var newItem = document.createElement('div');
+          let newItem = document.createElement('div').className = "review-item";
+          let stars = document.createElement('div');
+          
           newItem.innerText = item.stars;
           
           wrapper.append(newItem);
