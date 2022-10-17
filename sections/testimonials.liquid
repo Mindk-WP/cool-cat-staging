@@ -62,9 +62,9 @@
         console.log(data);
 
 
-        data.productReviews.forEach(
-          wrapper.innerText = stars          
-        );
+        data.productReviews.forEach(function (item, index) {
+          wrapper.innerText = item.stars;
+        });
 
 
         
