@@ -1234,8 +1234,21 @@ body.index .slideshow.banner .button:after {
 .review-total {
   display: inline-block;
   padding: 10px;
-  background-color: #fff;
-  filter: invert;
+  color: #fff;
+  background-color: #000;
+}
+.review-total .stars {
+  filter: invert(1);  
+  white-space: nowrap;
+  margin-bottom: 40px;
+}
+.review-total .star {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  background-image: url(star.svg);
+  background-size: contain;
 }
 
 .review-wrapper {
