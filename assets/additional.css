@@ -1262,14 +1262,17 @@ body.index .slideshow.banner .button:after {
   background-size: contain;
 }
 .review-item .testimonial {
+  color: #555;
   font-size: 13px;
 }
 .review-item .name {
   font-size: 12px;
+  color: #777;
 }
 .review-item .verified {
   position: relative;
   font-size: 12px;
+  color: #777;  
 }
 .review-item .verified:before {
   content: '';
