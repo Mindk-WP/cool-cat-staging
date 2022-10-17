@@ -1238,6 +1238,7 @@ body.index .slideshow.banner .button:after {
   background-color: #000;
 }
 .review-total .stars {
+  display: inline-block;
   filter: invert(1);  
   white-space: nowrap;
   margin-bottom: 40px;
@@ -1246,7 +1247,7 @@ body.index .slideshow.banner .button:after {
   display: inline-block;
   width: 25px;
   height: 25px;
-  margin: 5px;
+  margin: 1px;
   background-image: url(star.svg);
   background-size: contain;
 }
