@@ -1260,6 +1260,12 @@ body.index .slideshow.banner .button:after {
   background-image: url(star.svg);
   background-size: contain;
 }
+.testimonial .name {
+  font-size: 13px;
+}
+.review-item .name {
+  font-size: 12px;
+}
 .review-item .verified {
   position: relative;
   font-size: 12px;
