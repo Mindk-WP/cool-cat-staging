@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
       reviewSlider.append(reviewItem);
     });
 
-    reviewCountPlace.innerText(count(data.productReviews));
+    reviewCountPlace.innerText(data.productReviews.length);
     
   });  
 }, false);
