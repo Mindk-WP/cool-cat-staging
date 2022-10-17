@@ -49,7 +49,7 @@
     // if (null !== reviewScoreElements && reviewScoreElements.length > 0) {
       // reviewScoreElements.forEach(function(element) {
         
-        fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=88034,82529,88033', {
+        fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
           method: 'GET',
           headers: {
             'ApiKey': apiKey,
