@@ -1236,7 +1236,6 @@ body.index .slideshow.banner .button:after {
 }
 .review-slider {
   text-align: left;
-  vertical-align: top;
 }
 .review-item {
   display: inline-block;
@@ -1244,6 +1243,7 @@ body.index .slideshow.banner .button:after {
   margin: 8px;
   background-color: rgba(255,255,255,.9);
   max-width: 240px;
+  vertical-align: top;
 }
 .review-item p {
   margin-top: 0;  
