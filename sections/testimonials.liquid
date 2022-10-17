@@ -49,6 +49,8 @@
   
   <div id="review-wrapper" class="review-wrapper">
     <div id="review-slider" class="review-slider">
+      <div id="swiper-wrapper" class="swiper-wrapper">
+      </div>        
     </div> 
   </div>
       
@@ -63,7 +65,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const businessUnitId = '608191716c05e7000118e9b8';
   const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
-  const reviewSlider = document.getElementById('review-slider');
+  const reviewSlider = document.getElementById('swiper-wrapper');
   const averageStarsPlace = document.getElementById('average-stars');
   const reviewCountPlace = document.getElementById('review-count');
   let totalStars = 0;
