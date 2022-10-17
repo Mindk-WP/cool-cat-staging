@@ -46,7 +46,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     const businessUnitId = '608191716c05e7000118e9b8';
     const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
-    const wrapper = document.getElementById('testimonials-wrapper');
+    const reviewsWrapper = document.getElementById('testimonials-wrapper');
       
         
       fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
@@ -63,13 +63,26 @@
 
 
         data.productReviews.forEach(function (item, index) {
-          let newItem = document.createElement('div');
-          newItem.className = "review-item";
+          
+          let reviewItem = document.createElement('div');
+          reviewItem.className = "review-item";
+          
           let stars = document.createElement('div');
+          stars.className = "stars";
+
+          let testimonial = document.createElement('p');
+          testimonial.className = "testimonial";
+          testimonial.innerText = item.content;         
+
+          let name = document.createElement('p');
+          name.className = "name";
+          testimonial.innerText = item.consumer.displayName;
           
-          newItem.innerText = item.stars;
+          reviewItem.append(testimonial);
           
-          wrapper.append(newItem);
+          
+          
+          reviewsWrapper.append(reviewItem, name);
         });
 
 
