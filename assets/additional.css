@@ -1256,11 +1256,9 @@ body.index .slideshow.banner .button:after {
   background-size: contain;
 }
 
-.review-wrapper {
-  margin-bottom: 30px;
-}
 .review-slider {
   text-align: left;
+  margin-bottom: 30px;  
 }
 .review-item {
   display: inline-block;
