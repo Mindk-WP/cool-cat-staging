@@ -1260,7 +1260,7 @@ body.index .slideshow.banner .button:after {
   background-image: url(star.svg);
   background-size: contain;
 }
-.testimonial .testimonial {
+.review-item .testimonial {
   font-size: 13px;
 }
 .review-item .name {
