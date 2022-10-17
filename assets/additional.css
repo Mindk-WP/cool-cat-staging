@@ -1266,9 +1266,10 @@ body.index .slideshow.banner .button:after {
   display: inline-block;
   padding: 25px 20px 30px 30px;
   margin: 12px;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255,255,255,1);
   width: 315px;
   vertical-align: top;
+  box-sizing: border-box;
 }
 .review-item p {
   margin-top: 0;  
