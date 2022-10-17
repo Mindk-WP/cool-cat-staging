@@ -1232,14 +1232,12 @@ body.index .slideshow.banner .button:after {
 }
 
 .testimonials-wrapper {
-  background-color: rgba(255,255,255,.9);
   margin-bottom: 30px;
-  padding: 20px;
 }
 .review-item {
-  padding: 5px;
-  border: 1px solid black;
-  margin-bottom: 10px;
+  padding: 20px 20px 30px;
+  margin: 8px;
+  background-color: rgba(255,255,255,.9);
 }
 .review-item p {
   margin-top: 0;  
