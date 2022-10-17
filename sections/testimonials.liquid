@@ -62,6 +62,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const businessUnitId = '608191716c05e7000118e9b8';
   const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
   const reviewSlider = document.getElementById('review-slider');
+  const averageStarsPlace = document.getElementById('average-stars');
+  const reviewCountPlace = document.getElementById('review-count');
+  let averageStars = '';
+  let reviewCount = '';
       
   fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
     method: 'GET',
@@ -106,7 +110,10 @@ document.addEventListener('DOMContentLoaded', function () {
       
       reviewSlider.append(reviewItem);
     });
-  });
+
+    reviewCountPlace.innerText(count(data.productReviews));
+    
+  });  
 }, false);
 
 let swiper = new Swiper(".review-slider", {});
