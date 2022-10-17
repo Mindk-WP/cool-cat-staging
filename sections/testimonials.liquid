@@ -130,7 +130,10 @@ document.addEventListener('DOMContentLoaded', function () {
   //   spaceBetween: 30
   // });
 
-  document.getElementById('review-slider').slick();
+  reviewSlider.slick({
+    slidesToShow: 3,
+    slidesToScroll: 1
+  });
   
 }, false);
 
