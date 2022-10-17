@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const reviewSlider = document.getElementById('review-slider');
   const averageStarsPlace = document.getElementById('average-stars');
   const reviewCountPlace = document.getElementById('review-count');
-  let totalStars = '';
+  let totalStars = 0;
   let reviewCount = '';
       
   fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
         stars.append(star);
       }
 
-      totalStars += parseInt(itemStars);      
+      totalStars += itemStars; 
 
       let testimonial = document.createElement('p');
       testimonial.className = "testimonial";
