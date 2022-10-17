@@ -1264,6 +1264,10 @@ body.index .slideshow.banner .button:after {
 .review-item .testimonial {
   color: #555;
   font-size: 13px;
+  height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .review-item .name {
   font-size: 12px;
