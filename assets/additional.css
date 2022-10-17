@@ -1240,7 +1240,7 @@ body.index .slideshow.banner .button:after {
 .review-item {
   display: inline-block;
   padding: 25px 30px 30px;
-  margin: 8px;
+  margin: 12px;
   background-color: rgba(255,255,255,.9);
   max-width: 300px;
   vertical-align: top;
