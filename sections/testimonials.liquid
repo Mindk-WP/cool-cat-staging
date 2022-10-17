@@ -63,7 +63,10 @@
 
 
         data.productReviews.forEach(function (item, index) {
-          wrapper.innerText = item.stars;
+          var newItem = document.createElement('div');
+          newItem.innerText = item.stars;
+          
+          wrapper.append(newItem);
         });
 
 
