@@ -1235,18 +1235,19 @@ body.index .slideshow.banner .button:after {
   display: inline-block;
   padding: 10px;
   color: #fff;
+  margin-bottom: 40px;
   background-color: #000;
 }
 .review-total .stars {
   display: inline-block;
   filter: invert(1);  
   white-space: nowrap;
-  margin-bottom: 40px;
+  
 }
 .review-total .star {
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width: 23px;
+  height: 23px;
   margin: 1px;
   background-image: url(star.svg);
   background-size: contain;
