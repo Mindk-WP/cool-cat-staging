@@ -1236,3 +1236,8 @@ body.index .slideshow.banner .button:after {
   margin-bottom: 30px;
   padding: 30px;
 }
+.review-item {
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
