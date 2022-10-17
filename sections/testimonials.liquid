@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }).then(function(response) {
     return response.json();
   }).then(function(data) {
-    // console.log(data);
+    console.log(data);
     data.productReviews.forEach(function (item, index) {
       let reviewItem = document.createElement('div');
       reviewItem.className = "review-item";
