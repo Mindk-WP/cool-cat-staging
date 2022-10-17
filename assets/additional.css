@@ -1261,13 +1261,11 @@ body.index .slideshow.banner .button:after {
   margin-bottom: 30px;  
 }
 .review-item {
-  display: inline-block;
   padding: 25px 20px 30px 30px;
   margin: 12px;
   background-color: rgba(255,255,255,1);
   width: 315px;
   min-width: 315px;
-  vertical-align: top;
   box-sizing: border-box;
 }
 .review-item p {
