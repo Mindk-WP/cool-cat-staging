@@ -49,8 +49,8 @@
   
   <div id="review-wrapper" class="review-wrapper">
     <div id="review-slider" class="review-slider">
-      <div id="swiper-wrapper" class="swiper-wrapper">
-      </div>        
+<!--       <div id="swiper-wrapper" class="swiper-wrapper">
+      </div>         -->
     </div> 
   </div>
       
@@ -58,13 +58,14 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <script>    
 // Add trustpilot review slider
 document.addEventListener('DOMContentLoaded', function () {
   const businessUnitId = '608191716c05e7000118e9b8';
   const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
-  const reviewSlider = document.getElementById('swiper-wrapper');
+  const reviewSlider = document.getElementById('review-slider');
   const averageStarsPlace = document.getElementById('average-stars');
   const reviewCountPlace = document.getElementById('review-count');
   let totalStars = 0;
@@ -124,10 +125,12 @@ document.addEventListener('DOMContentLoaded', function () {
     
   });  
   
-  let swiper = new Swiper(".review-slider", {
-    slidesPerView: 3,
-    spaceBetween: 30
-  });
+  // let swiper = new Swiper(".review-slider", {
+  //   slidesPerView: 3,
+  //   spaceBetween: 30
+  // });
+
+  reviewSlider.slick();
   
 }, false);
 
