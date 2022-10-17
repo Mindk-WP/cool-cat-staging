@@ -15,7 +15,9 @@
         <h2 class="h1 section-title">
           {{ section.settings.title | escape }}   
         </h2>
-        <div id="testimonials-wrapper" class="testimonials-wrapper">
+        <div id="review-wrapper" class="review-wrapper">
+          <div class="review-slider">
+          </div> 
         </div>          
       </div>
     {%- endif -%}
@@ -39,7 +41,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const businessUnitId = '608191716c05e7000118e9b8';
   const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
-  const reviewsWrapper = document.getElementById('testimonials-wrapper');
+  const reviewSlider = document.getElementById('review-slider');
       
   fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
     method: 'GET',
@@ -51,9 +53,6 @@ document.addEventListener('DOMContentLoaded', function () {
     return response.json();
   }).then(function(data) {
     // console.log(data);
-    let reviewSlider = document.createElement('div');
-    reviewSlider.className = "review-slider";
-    reviewsWrapper.append(reviewSlider);
     data.productReviews.forEach(function (item, index) {
       let reviewItem = document.createElement('div');
       reviewItem.className = "review-item";
