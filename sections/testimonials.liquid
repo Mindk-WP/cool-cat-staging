@@ -60,6 +60,9 @@
         
         // console.log(data);
 
+        let reviewSlider = document.createElement('div');
+        reviewSlider.className = "review-slider";
+        reviewsWrapper.append(reviewSlider);
         data.productReviews.forEach(function (item, index) {
           let reviewItem = document.createElement('div');
           reviewItem.className = "review-item";
@@ -91,7 +94,7 @@
             verified
           );
           
-          reviewsWrapper.append(reviewItem);
+          reviewSlider.append(reviewItem);
         });
 
 
