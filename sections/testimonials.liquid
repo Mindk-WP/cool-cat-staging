@@ -34,76 +34,63 @@
 
 
 <script>  
-
-// var trustpilot_children = document.getElementById("trustpilot_widget").childNodes;
-// var trustpilot_frame = trustpilot_children[0];
-// console.log(trustpilot_frame);
-// trustpilot_frame.onload = setTimeout(console.log(trustpilot_frame), 500);
-// console.log('iframe - ' + document.querySelectorAll("#trustpilot_widget iframe"));
-
-
   
-  
-  // Add trustpilot average score into product cards
-  document.addEventListener('DOMContentLoaded', function () {
-    const businessUnitId = '608191716c05e7000118e9b8';
-    const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
-    const reviewsWrapper = document.getElementById('testimonials-wrapper');
-        
-      fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
-        method: 'GET',
-        headers: {
-          'ApiKey': apiKey,
-          'Content-type': 'application/json; charset=UTF-8',
-        }
-      }).then(function(response) {
-        return response.json();
-      }).then(function(data) {
-        
-        // console.log(data);
+// Add trustpilot review slider
+document.addEventListener('DOMContentLoaded', function () {
+  const businessUnitId = '608191716c05e7000118e9b8';
+  const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
+  const reviewsWrapper = document.getElementById('testimonials-wrapper');
+      
+  fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
+    method: 'GET',
+    headers: {
+      'ApiKey': apiKey,
+      'Content-type': 'application/json; charset=UTF-8',
+    }
+  }).then(function(response) {
+    return response.json();
+  }).then(function(data) {
+    // console.log(data);
+    let reviewSlider = document.createElement('div');
+    reviewSlider.className = "review-slider";
+    reviewsWrapper.append(reviewSlider);
+    data.productReviews.forEach(function (item, index) {
+      let reviewItem = document.createElement('div');
+      reviewItem.className = "review-item";
+      
+      let stars = document.createElement('div');
+      stars.className = "stars";
+      for (var i = 0; i < item.stars; i++){
+        let star = document.createElement('span');
+        star.className = "star";
+        stars.append(star);
+      }
 
-        let reviewSlider = document.createElement('div');
-        reviewSlider.className = "review-slider";
-        reviewsWrapper.append(reviewSlider);
-        data.productReviews.forEach(function (item, index) {
-          let reviewItem = document.createElement('div');
-          reviewItem.className = "review-item";
-          
-          let stars = document.createElement('div');
-          stars.className = "stars";
-          for (var i = 0; i < item.stars; i++){
-            let star = document.createElement('span');
-            star.className = "star";
-            stars.append(star);
-          }
+      let testimonial = document.createElement('p');
+      testimonial.className = "testimonial";
+      testimonial.innerText = item.content;         
 
-          let testimonial = document.createElement('p');
-          testimonial.className = "testimonial";
-          testimonial.innerText = item.content;         
+      let name = document.createElement('p');
+      name.className = "name";
+      name.innerText = item.consumer.displayName;
 
-          let name = document.createElement('p');
-          name.className = "name";
-          name.innerText = item.consumer.displayName;
+      let verified = document.createElement('p');
+      verified.className = "verified";
+      verified.innerText = 'Verified, collected via Trustpilot';
+      
+      reviewItem.append(
+        stars,
+        testimonial,
+        name,
+        verified
+      );
+      
+      reviewSlider.append(reviewItem);
+    });
+  });
+}, false);
 
-          let verified = document.createElement('p');
-          verified.className = "verified";
-          verified.innerText = 'Verified, collected via Trustpilot';
-          
-          reviewItem.append(
-            stars,
-            testimonial,
-            name,
-            verified
-          );
-          
-          reviewSlider.append(reviewItem);
-        });
-
-
-        
-      });
-    
-  }, false);
+const swiper = new Swiper('.review-slider');
   
 </script>
 
