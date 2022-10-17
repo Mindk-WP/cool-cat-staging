@@ -1253,4 +1253,5 @@ body.index .slideshow.banner .button:after {
   width: 10px;
   height: 10px;
   background-image: url(star.svg);
+  background-size: contain;
 }
