@@ -1265,6 +1265,7 @@ body.index .slideshow.banner .button:after {
   font-size: 12px;
 }
 .review-item .verified:before {
+  content: '';
   display: inline-block;
   background-color: #5c5c70;
   width: 12px;
