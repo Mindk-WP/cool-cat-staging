@@ -44,27 +44,28 @@
   document.addEventListener('DOMContentLoaded', function () {
     const businessUnitId = '608191716c05e7000118e9b8';
     const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
-    const reviewScoreElements = document.querySelectorAll('[data-module="trustpilot-review-score"]');
   
-    // if (null !== reviewScoreElements && reviewScoreElements.length > 0) {
-      // reviewScoreElements.forEach(function(element) {
         
-        fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
-          method: 'GET',
-          headers: {
-            'ApiKey': apiKey,
-            'Content-type': 'application/json; charset=UTF-8',
-          }
-        }).then(function(response) {
-          return response.json();
-        }).then(function(data) {
-          
-          console.log(data);
-          
-          // element.innerText = data.starsAverage;
-        });
-      // });
-    // }
+      fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
+        method: 'GET',
+        headers: {
+          'ApiKey': apiKey,
+          'Content-type': 'application/json; charset=UTF-8',
+        }
+      }).then(function(response) {
+        return response.json();
+      }).then(function(data) {
+        
+        console.log(data);
+
+
+        
+        // element.innerText = data.starsAverage;
+
+
+        
+      });
+    
   }, false);
   
 </script>
