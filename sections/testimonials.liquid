@@ -50,7 +50,9 @@
   <div id="review-wrapper" class="review-wrapper">
     <div id="review-slider" class="review-slider">
       <div id="swiper-wrapper" class="swiper-wrapper">
-      </div>        
+      </div> 
+      <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
     </div> 
   </div>
       
@@ -58,7 +60,6 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <script>    
 // Add trustpilot review slider
@@ -125,7 +126,9 @@ document.addEventListener('DOMContentLoaded', function () {
     
   });  
   
-  let swiper = new Swiper(".review-slider", {});
+  let swiper = new Swiper(".review-slider", {
+    
+  });
   
 }, false);
 
