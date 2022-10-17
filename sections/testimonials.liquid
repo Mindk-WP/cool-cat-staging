@@ -47,7 +47,6 @@
     const businessUnitId = '608191716c05e7000118e9b8';
     const apiKey = 'Mt5Q5AKOQnw9IyOgnLHjTsfDoVLqCM1e';
     const reviewsWrapper = document.getElementById('testimonials-wrapper');
-      
         
       fetch('https://api.trustpilot.com/v1/product-reviews/business-units/' + businessUnitId + '/reviews?sku=82530,88034,82529,88033&perPage=100', {
         method: 'GET',
@@ -59,8 +58,7 @@
         return response.json();
       }).then(function(data) {
         
-        console.log(data);
-
+        // console.log(data);
 
         data.productReviews.forEach(function (item, index) {
           let reviewItem = document.createElement('div');
