@@ -63,7 +63,6 @@
 
 
         data.productReviews.forEach(function (item, index) {
-          
           let reviewItem = document.createElement('div');
           reviewItem.className = "review-item";
           
@@ -82,10 +81,17 @@
           let name = document.createElement('p');
           name.className = "name";
           name.innerText = item.consumer.displayName;
+
+          let verified = document.createElement('p');
+          verified.className = "verified";
+          verified.innerText = 'Verified, collected via Trustpilot';
           
-          reviewItem.append(stars, testimonial, name);
-          
-          
+          reviewItem.append(
+            stars,
+            testimonial,
+            name,
+            verified
+          );
           
           reviewsWrapper.append(reviewItem);
         });
