@@ -1236,6 +1236,7 @@ body.index .slideshow.banner .button:after {
 }
 .review-slider {
   text-align: left;
+  vertical-align: top;
 }
 .review-item {
   display: inline-block;
