@@ -1252,6 +1252,7 @@ body.index .slideshow.banner .button:after {
   display: inline-block;
   width: 17px;
   height: 17px;
+  margin: 2px;
   background-image: url(star.svg);
   background-size: contain;
 }
