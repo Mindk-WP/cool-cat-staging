@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     reviewCount = data.productReviews.length;
 
-    averageStarsPlace.innerText = parseInt(totalStars/reviewCount);    
+    averageStarsPlace.innerText = roughScale(totalStars/reviewCount, 2);    
     reviewCountPlace.innerText = reviewCount;
     
   });  
