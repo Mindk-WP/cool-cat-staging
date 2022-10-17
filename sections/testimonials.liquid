@@ -69,6 +69,11 @@
           
           let stars = document.createElement('div');
           stars.className = "stars";
+          for (let i = 0, i < item.stars, i++){
+            let star = document.createElement('span');
+            star.className = "star";
+            stars.append(star);
+          }
 
           let testimonial = document.createElement('p');
           testimonial.className = "testimonial";
@@ -78,7 +83,7 @@
           name.className = "name";
           name.innerText = item.consumer.displayName;
           
-          reviewItem.append(testimonial, name);
+          reviewItem.append(stars, testimonial, name);
           
           
           
