@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
         stars.append(star);
       }
 
-      totalStars += itemStars;      
+      totalStars += parseInt(itemStars);      
 
       let testimonial = document.createElement('p');
       testimonial.className = "testimonial";
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     reviewCount = data.productReviews.length;
 
-    averageStarsPlace.innerText = totalStars;    
+    averageStarsPlace.innerText = parseInt(totalStars);    
     reviewCountPlace.innerText = reviewCount;
     
   });  
