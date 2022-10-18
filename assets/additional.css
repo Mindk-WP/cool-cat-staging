@@ -1286,7 +1286,7 @@ body.index .slideshow.banner .button:after {
   background-size: contain;
 }
 .review-item .testimonial {
-  color: #555;
+  color: #000;
   font-size: 13px;
   height: 24px;
   overflow: hidden;
