@@ -94,8 +94,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
       let testimonial = document.createElement('p');
       let content = item.content;
-      if (content.length > 55) {
-        content = content.substring(0, 55) + '...';
+      if (content.length > 60) {
+        content = content.substring(0, 60) + '...';
       }
       testimonial.className = "testimonial";
       testimonial.innerText = content;
