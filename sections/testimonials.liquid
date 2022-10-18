@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
       let testimonial = document.createElement('p');
       let content = item.content;
       if (content.length > 55) {
-        content = 'trimmed' + '...';
+        content = content.substring(0, 55) + '...';
       }
       testimonial.className = "testimonial";
       testimonial.innerText = content;
