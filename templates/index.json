@@ -161,6 +161,17 @@
         "padding_bottom": 36
       }
     },
+    "7f4e20d3-5724-4d1a-8cb6-064d3c04b155": {
+      "type": "testimonials",
+      "settings": {
+        "title": "Heading",
+        "widget_code": "",
+        "video_url": "",
+        "bg_image": "shopify:\/\/shop_images\/Gay_Pride_07461_1_1_1_21e29169-4f75-4191-ba47-8b81f55ca18f.jpg",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1658833094612a825d": {
       "type": "running-line",
       "blocks": {
@@ -332,6 +343,7 @@
     "16603197282e875c0f",
     "video",
     "16588332595ed60108",
+    "7f4e20d3-5724-4d1a-8cb6-064d3c04b155",
     "1658833094612a825d",
     "16588330371a5a8c76",
     "16588307082394c861",
