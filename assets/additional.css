@@ -1238,7 +1238,7 @@ body.index .slideshow.banner .button:after {
   color: #fff;
   margin-bottom: 40px;
   background-color: #000;
-  font-size: 20px;
+  font-size: 15px;
 }
 .review-total .stars {
   display: inline-block;
@@ -1287,7 +1287,7 @@ body.index .slideshow.banner .button:after {
 }
 .review-item .testimonial {
   color: #000;
-  font-size: 13px;
+  font-size: 15px;
   height: 24px;
   overflow: hidden;
   text-overflow: ellipsis;
