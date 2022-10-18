@@ -93,8 +93,13 @@ document.addEventListener('DOMContentLoaded', function () {
       totalStars += itemStars; 
 
       let testimonial = document.createElement('p');
+      let content = item.content;
+      if (content.length > 55) {
+        content = 'trimmed' + '...';
+      }
       testimonial.className = "testimonial";
-      testimonial.innerText = item.content;         
+      testimonial.innerText = content;
+      
 
       let name = document.createElement('p');
       name.className = "name";
