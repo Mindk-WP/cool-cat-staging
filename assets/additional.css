@@ -1238,6 +1238,7 @@ body.index .slideshow.banner .button:after {
   color: #fff;
   margin-bottom: 40px;
   background-color: #000;
+  font-size: 20px;
 }
 .review-total .stars {
   display: inline-block;
