@@ -129,12 +129,14 @@ document.addEventListener('DOMContentLoaded', function () {
   let swiper = new Swiper(".review-slider", {
     slidesPerView: 6,
     spaceBetween: 30,
+    loop: true,
     autoplay: {
       delay: 1,
       disableOnInteraction: true
     },
     freeMode: true,
-    speed: 12000
+    speed: 12000,
+    freeModeMomentum: false
   });
 
 }, false);
