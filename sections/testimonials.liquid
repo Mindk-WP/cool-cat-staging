@@ -1,7 +1,7 @@
  <!-- Link Swiper's CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
-<div class="testimonials video-bg-wrap section-{{ section.id }}-padding">
+<div class="testimonials video-bg-wrap section-{{ section.id }} section-{{ section.id }}-padding">
   {%- if section.settings.video_url -%}
     <video class="video-bg" loop autoplay preload="none" muted playsinline>
       <source src="{{ section.settings.video_url }}" type="video/mp4">
