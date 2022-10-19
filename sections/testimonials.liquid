@@ -128,7 +128,13 @@ document.addEventListener('DOMContentLoaded', function () {
   
   let swiper = new Swiper(".review-slider", {
     slidesPerView: 6,
-    spaceBetween: 30
+    spaceBetween: 30,
+    autoplay: {
+      delay: 1,
+      disableOnInteraction: true
+    },
+    freeMode: true,
+    speed: 5000
   });
 
 }, false);
