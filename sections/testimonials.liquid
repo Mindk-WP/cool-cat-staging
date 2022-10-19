@@ -135,7 +135,18 @@ document.addEventListener('DOMContentLoaded', function () {
       disableOnInteraction: true
     },
     freeMode: true,
-    speed: 8000
+    speed: 8000,
+    breakpoints: {
+      640: {
+        speed: 4000
+      },
+      768: {
+        speed: 5000
+      },
+      1024: {
+        speed: 6000
+      },
+    }
   });
 
 }, false);
