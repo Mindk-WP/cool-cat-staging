@@ -127,19 +127,16 @@ document.addEventListener('DOMContentLoaded', function () {
   });  
   
   let swiper = new Swiper(".review-slider", {
+    slidesPerView: 6,
+    spaceBetween: 30,
     loop: true,
-  freeMode: true,
-  spaceBetween: 0,
-  grabCursor: true,
-  slidesPerView: 7,
-  loop: true,
-  autoplay: {
-    delay: 1,
-    disableOnInteraction: true
-  },
-  freeMode: true,
-  speed: 5000,
-  freeModeMomentum: false
+    autoplay: {
+      delay: 1,
+      disableOnInteraction: true
+    },
+    freeMode: true,
+    speed: 8000,
+    freeModeMomentum: false
   });
 
 }, false);
