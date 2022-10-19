@@ -21,6 +21,7 @@
       margin-top: 0;
     {% endif %}
   }
+  .shopify-section:last-child .testimonials,
   .shopify-section:last-child slideshow-component {
     margin-bottom: -{{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
   }
@@ -36,6 +37,7 @@
         margin-top: 0;
       {% endif %}
     }
+    .shopify-section:last-child .testimonials,    
     .shopify-section:last-child slideshow-component {
       margin-bottom: -{{ section.settings.margin_top }}px;
     }
