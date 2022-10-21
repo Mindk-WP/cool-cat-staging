@@ -1334,3 +1334,11 @@ body.index .slideshow.banner .button:after {
       padding-right: 20px;
   }
 }
+
+.article .shopify-section em strong {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: larger;
+  font-weight: 400;
+}
