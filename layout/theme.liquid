@@ -1,9 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>    
-    {%- if request.page_type.metafields.custom.url_redirect_to -%}
+    {%- if [request.page_type].metafields.custom.url_redirect_to -%}
       <script>
-        window.location = "{{ request.page_type.metafields.custom.url_redirect_to }}";
+        window.location = "{{ [request.page_type].metafields.custom.url_redirect_to }}";
       </script>
     {%- endif -%}
     <meta charset="utf-8">
