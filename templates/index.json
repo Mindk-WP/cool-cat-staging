@@ -350,7 +350,7 @@
     "8951b773-5d98-44a4-bc1a-afc29330ff22": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<video src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4704ba595445499d97a4ae9038994a57.mp4\"\/>",
+        "custom_liquid": "<video src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4704ba595445499d97a4ae9038994a57.mp4\" controls><\/video>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
