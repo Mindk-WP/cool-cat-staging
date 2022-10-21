@@ -18,7 +18,7 @@
       <div class="row row-centered">
         {%- for block in section.blocks -%}
           {%- if block.settings.logo != blank -%}
-              <img class="logo-img col-2" src="{{ block.settings.logo | image_url }}" width="{{ block.settings.logo.width }}">            
+              <img class="logo-img col-2" src="{{ block.settings.logo | image_url }}" width="{{ block.settings.logo.width }}" height="{{ block.settings.logo.height }}">            
           {%- endif -%}
         {%- endfor -%}
       </div>
