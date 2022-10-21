@@ -1342,3 +1342,6 @@ body.index .slideshow.banner .button:after {
   font-size: larger;
   font-weight: 400;
 }
+video {
+  max-width: 100%;
+}
