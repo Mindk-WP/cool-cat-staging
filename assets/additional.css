@@ -1078,6 +1078,7 @@ footer .list-social {
 }
 .logo-images-section img {
   transition: transform 0.2s ease;
+  height: auto;
 /*   max-height: 90px; */
 /*   max-width: 100%; */
 }
