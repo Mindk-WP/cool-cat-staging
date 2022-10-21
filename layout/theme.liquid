@@ -1,14 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>
-    {%- if blog.metafields.custom.url_redirect_to -%}
+  <head>    
+    {%- if request.page_type.metafields.custom.url_redirect_to -%}
       <script>
-        window.location = "{{ blog.metafields.custom.url_redirect_to }}";
-      </script>
-    {%- endif -%}
-    {%- if pages[handle].metafields.custom.url_redirect_to -%}
-      <script>
-        window.location = "{{ pages[handle].metafields.custom.url_redirect_to }}";
+        window.location = "{{ request.page_type.metafields.custom.url_redirect_to }}";
       </script>
     {%- endif -%}
     <meta charset="utf-8">
