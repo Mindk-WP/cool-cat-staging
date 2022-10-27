@@ -103,7 +103,7 @@
 }
 
 .collapsible-content details[open]>summary .icon-caret {
-    transform: scaleX(-1);
+    transform: scaleY(-1);
 }
 
 .collapsible-content summary .icon-caret {
