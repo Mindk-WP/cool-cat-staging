@@ -97,6 +97,11 @@
 /*   background: rgba(var(--color-foreground), 0.04); */
 }
 
+.collapsible-content summary {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .collapsible-content summary .accordion__title {
   text-transform: uppercase;
   font-weight: bold;
