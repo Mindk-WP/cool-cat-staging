@@ -98,8 +98,10 @@
 }
 
 .collapsible-content summary:hover .accordion__title {
-  text-decoration: underline;
+/*   text-decoration: underline; */
   text-underline-offset: 0.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* check for flexbox gap in older Safari versions */
