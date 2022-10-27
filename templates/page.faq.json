@@ -15,7 +15,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Lorem ipsum",
-            "icon": "apple",
+            "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Aliquam voluptatibus non soluta excepturi a libero perspiciatis sunt totam incidunt. Provident, repellat nesciunt odio magni dignissimos nisi nihil dolores facilis natus.<\/p>",
             "page": ""
           }
@@ -33,7 +33,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Consectetur adipisicing",
-            "icon": "bottle",
+            "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Aliquam voluptatibus non soluta excepturi a libero perspiciatis sunt totam incidunt. Provident, repellat nesciunt odio magni dignissimos nisi nihil dolores facilis natus.<\/p>",
             "page": ""
           }
@@ -42,7 +42,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Gluten free",
-            "icon": "gluten_free",
+            "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Aliquam voluptatibus non soluta excepturi a libero perspiciatis sunt totam incidunt. Provident, repellat nesciunt odio magni dignissimos nisi nihil dolores facilis natus.<\/p>",
             "page": ""
           }
