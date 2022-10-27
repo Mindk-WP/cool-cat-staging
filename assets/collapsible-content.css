@@ -102,6 +102,11 @@
   padding-bottom: 22px;
 }
 
+.collapsible-content summary .icon-caret {
+    height: 1rem;
+    top: calc(50% - 0.6rem);
+}
+
 .collapsible-content summary .accordion__title {
   text-transform: uppercase;
   font-weight: bold;
