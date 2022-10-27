@@ -108,8 +108,7 @@
 }
 
 .collapsible-content .accordion__content {
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0 0 10px;
 }
 
 /* check for flexbox gap in older Safari versions */
