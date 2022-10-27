@@ -55,14 +55,14 @@
         "template--15506429214820__bcfb6646-5e16-4299-aea5-807ef4080476-1666889241a212f8a1-3"
       ],
       "settings": {
-        "caption": "Caption",
-        "heading": "Heading",
+        "caption": "",
+        "heading": "FAQ",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
-        "open_first_collapsible_row": true,
+        "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
