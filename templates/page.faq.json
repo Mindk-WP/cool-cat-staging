@@ -24,7 +24,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Dolor sit amet",
-            "icon": "banana",
+            "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Aliquam voluptatibus non soluta excepturi a libero perspiciatis sunt totam incidunt. Provident, repellat nesciunt odio magni dignissimos nisi nihil dolores facilis natus.<\/p>",
             "page": ""
           }
