@@ -109,7 +109,7 @@
 .collapsible-content summary .icon-caret {
   height: 1rem;
   top: calc(50% - 0.6rem);
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.12s ease-in-out;
 }
 
 .collapsible-content summary .accordion__title {
