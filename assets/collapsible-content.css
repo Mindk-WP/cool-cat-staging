@@ -102,9 +102,14 @@
   padding-bottom: 22px;
 }
 
+.collapsible-content details[open]>summary .icon-caret {
+    transform: scaleX(-1);
+}
+
 .collapsible-content summary .icon-caret {
-    height: 1rem;
-    top: calc(50% - 0.6rem);
+  height: 1rem;
+  top: calc(50% - 0.6rem);
+  transition: transform 0.2s ease-in-out;
 }
 
 .collapsible-content summary .accordion__title {
