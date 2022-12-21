@@ -6428,7 +6428,7 @@ img:not([class]) {
   }
 }
 .product__media-item.product__media-item--variant {
-  display: block !important;
+/*   display: block !important; */
 }
 .shopify-policy__container {
   max-width: 1090px;
