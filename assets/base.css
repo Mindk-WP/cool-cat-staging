@@ -6827,3 +6827,16 @@ video {
 .cart cart-remove-button a:hover svg {
   filter: invert(1);
 }
+
+@media screen and (min-width: 750px) {
+  .product .product--thumbnail .product__media-gallery {
+    position: static;
+    flex-direction: row-reverse;
+  }
+  .product .product--thumbnail .product__media-gallery slider-component {
+    width: 100%;
+  }
+  .product .product--thumbnail .product__media-gallery slider-component.thumbnail-slider {
+    max-width: 105px;
+  }
+}
