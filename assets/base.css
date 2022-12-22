@@ -6844,4 +6844,7 @@ video {
   .product .product--thumbnail .product__media-gallery .thumbnail-list {
     display: block;
   }
+  .product .product--thumbnail .product__media-gallery .thumbnail-list .thumbnail-list__item {
+    margin-bottom: 20px;
+  }
 }
