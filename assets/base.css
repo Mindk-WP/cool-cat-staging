@@ -6745,6 +6745,10 @@ body.index .slideshow.banner .button:after {
 video {
   max-width: 100%;
 }
+.product-media-modal__content img {
+  max-height: 90vh;
+  object-fit: contain;
+}
 @media screen and (min-width: 990px) and (max-width: 1150px) {
     header.header {
         padding-left: 20px;
