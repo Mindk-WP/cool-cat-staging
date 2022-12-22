@@ -6830,6 +6830,7 @@ video {
 
 @media screen and (min-width: 750px) {
   .product .product--thumbnail .product__media-gallery {
+    display: flex;
     position: static;
     flex-direction: row-reverse;
   }
