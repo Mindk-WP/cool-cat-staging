@@ -6805,3 +6805,19 @@ video {
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
+.cart__note {
+  display: block;
+}
+.cart__note:before,
+.cart__note:after {
+  display: none;
+}
+.cart__note label {
+  position: static;
+  line-height: inherit;
+  margin-bottom: 15px;
+}
+.cart__note textarea {
+  border: 2px solid #000;
+}
