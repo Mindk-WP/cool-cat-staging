@@ -6821,6 +6821,9 @@ video {
 .cart .cart__note textarea {
   border: 1px solid #000;
 }
+.cart cart-remove-button .button {
+  border-width: 1px;
+}
 .cart cart-remove-button a:hover svg {
   filter: invert(1);
 }
