@@ -6,9 +6,9 @@
         "template--15310851965028__7a0c693e-87ad-4099-83e7-c96edc5bb84b-16650797957376c485-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cool-Cat-Wine-Spritzer-Hero-1.jpg",
+            "image": "shopify:\/\/shop_images\/the-cool-is-you-1.jpg",
             "bg_color": "rgba(0,0,0,0)",
-            "heading": "4 FLAVORS,\n6.9% ALC,\n140 CALORIES",
+            "heading": "THE COOL IS YOU",
             "heading_size": "h1",
             "subheading": "WITH THE RIGHT VIBE AND THE RIGHT TRIBE, THE SKY IS NOT THE LIMIT.",
             "button_label": "Shop Now",
@@ -17,14 +17,33 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 10,
+            "image_overlay_opacity": 20,
             "color_scheme": "background-1",
             "text_alignment_mobile": "left"
+          }
+        },
+        "3a1213fd-dbb0-408b-b7b1-1d4fc02584dc": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#00c1e1",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "template--15310851965028__7a0c693e-87ad-4099-83e7-c96edc5bb84b-16650797957376c485-0"
+        "template--15310851965028__7a0c693e-87ad-4099-83e7-c96edc5bb84b-16650797957376c485-0",
+        "3a1213fd-dbb0-408b-b7b1-1d4fc02584dc"
       ],
       "settings": {
         "layout": "full_bleed",
