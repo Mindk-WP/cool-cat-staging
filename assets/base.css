@@ -3776,7 +3776,7 @@ h2.h2 span {
 }
 .running-line-section {
   margin-top: 60px;
-  margin-bottom: 60px;
+/*   margin-bottom: 60px; */
   overflow: hidden;
 }
 .running-line-section .inner-wrap {
