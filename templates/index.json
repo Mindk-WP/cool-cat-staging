@@ -226,45 +226,6 @@
         "speed": 20
       }
     },
-    "16588330371a5a8c76": {
-      "type": "instagram-title",
-      "settings": {
-        "title": "Follow us",
-        "subtitle": "@drinkcoolcat",
-        "insta_url": "https:\/\/www.instagram.com\/drinkcoolcat\/?hl=en"
-      }
-    },
-    "16588307082394c861": {
-      "type": "instafeed",
-      "settings": {
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
-      }
-    },
-    "1658830746e0cffc6c": {
-      "type": "rich-text",
-      "blocks": {
-        "1658830746107203b6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>WE DON'T SPIKE, WE SPRITZ®<\/p>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "1658830746107203b6-0"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "f11dc871-0fb0-435a-af94-0174540fb479": {
       "type": "slideshow",
       "blocks": {
@@ -354,8 +315,48 @@
         "padding_bottom": 36
       }
     },
+    "16588330371a5a8c76": {
+      "type": "instagram-title",
+      "settings": {
+        "title": "Follow us",
+        "subtitle": "@drinkcoolcat",
+        "insta_url": "https:\/\/www.instagram.com\/drinkcoolcat\/?hl=en"
+      }
+    },
+    "16588307082394c861": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "1658830746e0cffc6c": {
+      "type": "rich-text",
+      "blocks": {
+        "1658830746107203b6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>WE DON'T SPIKE, WE SPRITZ®<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1658830746107203b6-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "8951b773-5d98-44a4-bc1a-afc29330ff22": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<video src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4704ba595445499d97a4ae9038994a57.mp4\" controls><\/video>",
         "color_scheme": "background-1",
@@ -373,11 +374,11 @@
     "video",
     "16588332595ed60108",
     "1658833094612a825d",
+    "f11dc871-0fb0-435a-af94-0174540fb479",
+    "7f4e20d3-5724-4d1a-8cb6-064d3c04b155",
     "16588330371a5a8c76",
     "16588307082394c861",
     "1658830746e0cffc6c",
-    "f11dc871-0fb0-435a-af94-0174540fb479",
-    "7f4e20d3-5724-4d1a-8cb6-064d3c04b155",
     "8951b773-5d98-44a4-bc1a-afc29330ff22"
   ]
 }
