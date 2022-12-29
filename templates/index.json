@@ -366,6 +366,7 @@
     },
     "740fe4b8-531f-4f3d-a4e4-9a6e7edf5d9f": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<video width=\"320\" height=\"240\" controls>\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/efbcf1b127494abdbcff0bd9681134c7.mp4\" type=\"video\/mp4\">  \n<\/video>",
         "color_scheme": "background-1",
