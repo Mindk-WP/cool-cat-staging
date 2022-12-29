@@ -6833,6 +6833,11 @@ video {
   filter: invert(1);
 }
 
+@media screen and (max-width: 749px) {
+  .hide-for-mobile {
+    display: none
+  }
+}
 @media screen and (min-width: 750px) {
   .product .product--thumbnail .product__media-gallery {
     display: flex;
@@ -6851,5 +6856,8 @@ video {
   }
   .product .product--thumbnail .product__media-gallery .thumbnail-list .thumbnail-list__item {
     margin-bottom: 20px;
+  }
+  .hide-for-desktop {
+    display: none;
   }
 }
