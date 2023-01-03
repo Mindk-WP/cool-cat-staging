@@ -323,6 +323,120 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "fb8008b5-3ee1-4600-9c3f-4410e7aea906": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#b75d5d",
+            "logo_image": "shopify:\/\/shop_images\/bevnet.png",
+            "heading": "“Ideal while on the go and provide more bang for the buck than a traditional bottle of wine.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "cf086cd1-92e7-4b1a-9046-f18e92a20add": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#00c1e1",
+            "logo_image": "shopify:\/\/shop_images\/49ers.png",
+            "heading": "“We expect this partnership to be one the Faithful will love.\"",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "6e047b18-9a63-491d-9716-869b78dc58c9": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#b75d5d",
+            "logo_image": "shopify:\/\/shop_images\/liquor.png",
+            "heading": "“From 125mls (about a glass) to 375mls (half a bottle) there is certainly a size for every kind of wine drinker.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "ec35517c-70ef-43c0-b4d5-6b001ce2a788": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#00c1e1",
+            "logo_image": "shopify:\/\/shop_images\/liquor.png",
+            "heading": "“Light on calories, but heavy on character.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "ab96d51a-80ff-4ae7-b47c-f403ff0f75b0": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#b75d5d",
+            "logo_image": "shopify:\/\/shop_images\/forbes.png",
+            "heading": "“Already making waves with consumers as well as the beverage industry.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "2cc47ad1-a982-4912-9844-4d1d23274373": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#00c1e1",
+            "logo_image": "shopify:\/\/shop_images\/kelly-and-ryan.png",
+            "heading": "“The sparkling beverage of the future.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
@@ -330,7 +444,13 @@
         "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-1",
         "bc42ec78-8079-46e8-a834-4af549cebcfe",
         "dddc0bb1-2e7c-4355-adbe-27aa7118e6b7",
-        "9a58c95f-94ee-41c9-b132-cfeb85d65db0"
+        "9a58c95f-94ee-41c9-b132-cfeb85d65db0",
+        "fb8008b5-3ee1-4600-9c3f-4410e7aea906",
+        "cf086cd1-92e7-4b1a-9046-f18e92a20add",
+        "6e047b18-9a63-491d-9716-869b78dc58c9",
+        "ec35517c-70ef-43c0-b4d5-6b001ce2a788",
+        "ab96d51a-80ff-4ae7-b47c-f403ff0f75b0",
+        "2cc47ad1-a982-4912-9844-4d1d23274373"
       ],
       "settings": {
         "layout": "full_bleed",
