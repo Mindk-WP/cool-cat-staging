@@ -271,8 +271,27 @@
           "type": "slide",
           "settings": {
             "bg_color": "#00c1e1",
-            "logo_image": "shopify:\/\/shop_images\/vogue_90694aed-a063-48b0-8bb4-05c79046156e.png",
-            "heading": "\"Light and refreshing, so glad to have discovered this 3\"",
+            "logo_image": "shopify:\/\/shop_images\/rolling-stone.png",
+            "heading": "“It stands up just as well poured over ice as it would be used for a cocktail mixer.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "dddc0bb1-2e7c-4355-adbe-27aa7118e6b7": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#b75d5d",
+            "logo_image": "shopify:\/\/shop_images\/rolling-stone.png",
+            "heading": "“With this wine seltzer in hand, every table you sit at will be the cool kids table.”",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
@@ -290,7 +309,8 @@
       "block_order": [
         "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-0",
         "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-1",
-        "bc42ec78-8079-46e8-a834-4af549cebcfe"
+        "bc42ec78-8079-46e8-a834-4af549cebcfe",
+        "dddc0bb1-2e7c-4355-adbe-27aa7118e6b7"
       ],
       "settings": {
         "layout": "full_bleed",
