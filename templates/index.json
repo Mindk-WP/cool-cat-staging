@@ -437,6 +437,44 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "52c55709-e1dd-4da2-bb83-7f58cb2d3b81": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#b75d5d",
+            "logo_image": "shopify:\/\/shop_images\/cool-hunting.png",
+            "heading": "“Refreshing and relaxing.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "2077405b-32a6-4fc7-8e7b-30ed59148b01": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#00c1e1",
+            "logo_image": "shopify:\/\/shop_images\/artful-living.png",
+            "heading": "“This is one of the newest kids on the block…Consider us inspired.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
@@ -450,7 +488,9 @@
         "6e047b18-9a63-491d-9716-869b78dc58c9",
         "ec35517c-70ef-43c0-b4d5-6b001ce2a788",
         "ab96d51a-80ff-4ae7-b47c-f403ff0f75b0",
-        "2cc47ad1-a982-4912-9844-4d1d23274373"
+        "2cc47ad1-a982-4912-9844-4d1d23274373",
+        "52c55709-e1dd-4da2-bb83-7f58cb2d3b81",
+        "2077405b-32a6-4fc7-8e7b-30ed59148b01"
       ],
       "settings": {
         "layout": "full_bleed",
