@@ -304,13 +304,33 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "9a58c95f-94ee-41c9-b132-cfeb85d65db0": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#00c1e1",
+            "logo_image": "shopify:\/\/shop_images\/us-weekly.png",
+            "heading": "“At just 150 calories per can, it’s a great alternative to many alcoholic beverages.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-0",
         "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-1",
         "bc42ec78-8079-46e8-a834-4af549cebcfe",
-        "dddc0bb1-2e7c-4355-adbe-27aa7118e6b7"
+        "dddc0bb1-2e7c-4355-adbe-27aa7118e6b7",
+        "9a58c95f-94ee-41c9-b132-cfeb85d65db0"
       ],
       "settings": {
         "layout": "full_bleed",
