@@ -229,25 +229,6 @@
     "f11dc871-0fb0-435a-af94-0174540fb479": {
       "type": "slideshow",
       "blocks": {
-        "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-0": {
-          "type": "slide",
-          "settings": {
-            "bg_color": "#00c1e1",
-            "logo_image": "shopify:\/\/shop_images\/forbes.png",
-            "heading": "“As a minority myself, I wanted to see representation, so I created a gender-neutral, original, high-quality product inclusive of all genders, ethnicities, and sexual orientations.”",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-1": {
           "type": "slide",
           "settings": {
@@ -381,6 +362,45 @@
             "text_alignment_mobile": "center"
           }
         },
+        "ab96d51a-80ff-4ae7-b47c-f403ff0f75b0": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "#00c1e1",
+            "logo_image": "shopify:\/\/shop_images\/forbes.png",
+            "heading": "“Already making waves with consumers as well as the beverage industry.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-0": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "bg_color": "#00c1e1",
+            "logo_image": "shopify:\/\/shop_images\/forbes.png",
+            "heading": "“As a minority myself, I wanted to see representation, so I created a gender-neutral, original, high-quality product inclusive of all genders, ethnicities, and sexual orientations.”",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "cf086cd1-92e7-4b1a-9046-f18e92a20add": {
           "type": "slide",
           "disabled": true,
@@ -460,30 +480,9 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "ab96d51a-80ff-4ae7-b47c-f403ff0f75b0": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "bg_color": "#b75d5d",
-            "logo_image": "shopify:\/\/shop_images\/forbes.png",
-            "heading": "“Already making waves with consumers as well as the beverage industry.”",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-0",
         "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-1",
         "dddc0bb1-2e7c-4355-adbe-27aa7118e6b7",
         "fb8008b5-3ee1-4600-9c3f-4410e7aea906",
@@ -491,11 +490,12 @@
         "2cc47ad1-a982-4912-9844-4d1d23274373",
         "52c55709-e1dd-4da2-bb83-7f58cb2d3b81",
         "2077405b-32a6-4fc7-8e7b-30ed59148b01",
+        "ab96d51a-80ff-4ae7-b47c-f403ff0f75b0",
+        "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-0",
         "cf086cd1-92e7-4b1a-9046-f18e92a20add",
         "6e047b18-9a63-491d-9716-869b78dc58c9",
         "9a58c95f-94ee-41c9-b132-cfeb85d65db0",
-        "bc42ec78-8079-46e8-a834-4af549cebcfe",
-        "ab96d51a-80ff-4ae7-b47c-f403ff0f75b0"
+        "bc42ec78-8079-46e8-a834-4af549cebcfe"
       ],
       "settings": {
         "layout": "full_bleed",
