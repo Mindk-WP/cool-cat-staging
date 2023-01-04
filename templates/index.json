@@ -231,6 +231,7 @@
       "blocks": {
         "template--15310851965028__f11dc871-0fb0-435a-af94-0174540fb479-1665149518a9686f45-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "bg_color": "#b75d5d",
             "logo_image": "shopify:\/\/shop_images\/rolling-stone.png",
