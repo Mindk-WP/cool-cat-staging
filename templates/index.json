@@ -270,6 +270,7 @@
         },
         "fb8008b5-3ee1-4600-9c3f-4410e7aea906": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "bg_color": "#b75d5d",
             "logo_image": "shopify:\/\/shop_images\/bevnet.png",
@@ -309,7 +310,7 @@
         "2cc47ad1-a982-4912-9844-4d1d23274373": {
           "type": "slide",
           "settings": {
-            "bg_color": "#b75d5d",
+            "bg_color": "#ef508a",
             "logo_image": "shopify:\/\/shop_images\/kelly-and-ryan.png",
             "heading": "“The sparkling beverage of the future.”",
             "heading_size": "h2",
@@ -347,7 +348,7 @@
         "2077405b-32a6-4fc7-8e7b-30ed59148b01": {
           "type": "slide",
           "settings": {
-            "bg_color": "#b75d5d",
+            "bg_color": "#ef508a",
             "logo_image": "shopify:\/\/shop_images\/artful-living.png",
             "heading": "“This is one of the newest kids on the block…Consider us inspired.”",
             "heading_size": "h2",
