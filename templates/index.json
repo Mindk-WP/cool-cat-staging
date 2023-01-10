@@ -5,6 +5,7 @@
       "blocks": {
         "template--15310851965028__7a0c693e-87ad-4099-83e7-c96edc5bb84b-16650797957376c485-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Cans_x_Ice_1080x1920_9.jpg",
             "bg_color": "rgba(0,0,0,0)",
